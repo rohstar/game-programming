@@ -1,0 +1,20 @@
+﻿Build started 4/22/2015 3:36:52 PM.
+     1>Project "C:\games\Project7\Project7\Project7.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt gmae.cpp
+         gmae.cpp
+     1>c:\games\project7\project7\gmae.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\games\project7\project7\gmae.cpp(214): warning C4101: 'result' : unreferenced local variable
+     1>c:\games\project7\project7\gmae.cpp(213): warning C4101: 'info' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\games\Project7\Debug\Project7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\games\Project7\Debug\Project7.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\games\Project7\Debug\Project7.lib" /MACHINE:X86 Debug\DirectSound.obj
+         Debug\gmae.obj
+         Debug\MyDirectX.obj
+         Debug\MyWindows.obj
+         Project7.vcxproj -> C:\games\Project7\Debug\Project7.exe
+     1>Done Building Project "C:\games\Project7\Project7\Project7.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.59
